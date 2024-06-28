@@ -1,0 +1,31 @@
+/* styles.css */
+#map-container {
+    width: 1000px;
+    height: 800px;
+    background-image: url('DamaraZoom.jpg'); /* Substitua pelo caminho da sua imagem */
+    background-size: cover;
+    position: relative;
+}
+
+#map {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.point {
+    fill: blue;
+    stroke: black;
+    stroke-width: 1px;
+}
+
+.character {
+    fill: red;
+    stroke: black;
+    stroke-width: 1px;
+}
+
+.line {
+    stroke: black;
+    stroke-width: 2px;
+}

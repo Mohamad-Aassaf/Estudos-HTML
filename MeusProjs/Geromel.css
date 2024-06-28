@@ -1,0 +1,65 @@
+.html{
+    background-color: #1c71d8;
+  }
+  .title{
+    color: blue;
+    font-style: italic;
+    text-decoration: underline;
+  }
+  .botao{
+    font-size: 20px;
+    color: #000b9c;
+    background-color: #99c1f1;
+    width: 200px;
+    height: 100px;
+    border-radius: 20px;
+  
+    opacity: 0.7;
+    transition: 0.3;
+  }
+  .botao:hover{
+    opacity: 1;
+  }
+  
+  .imagem1{
+    padding-top: 30px;
+    font-size: 12px;
+  }
+  
+  #texto{
+    color: blue;
+  }
+  .linhafoda { 
+      width: 400px; 
+      height: px; 
+      background: #1a5fb4; 
+      color: #1a5fb4;
+      position: absolute; 
+      top: 27%; 
+      left: 50%; 
+      transform: translate(-140%, -70%); 
+  } 
+  
+  .linhafoda::before { 
+      content: "------ Geromel ------ Geromel ------ Geromel ------ Geromel ------ Geromel ------ Geromel ------ Geromel ------ Geromel ------"; 
+      position: absolute; 
+      top: 0; 
+      left: 0; 
+      width: 200%; 
+      height: 100%; 
+      background: #1a5fb4; 
+      animation: animate 5s linear infinite; 
+  }
+  @keyframes animate { 
+      0% { 
+          left: 0; 
+      } 
+  
+      50% { 
+          left: 100%; 
+      } 
+  
+      0% { 
+          left: 0; 
+      } 
+  } 

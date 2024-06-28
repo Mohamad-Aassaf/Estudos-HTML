@@ -1,0 +1,1 @@
+console.log("Bolsonaro é norte, Bolsonaro é nordeste");

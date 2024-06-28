@@ -1,0 +1,66 @@
+html{
+    font-family: Helvetica;
+    background-color: #ddd;
+}
+
+.container{
+    max-width: 1100px;
+    background-color: #fff;
+    position: relative;
+    margin: 50px auto;
+    padding: 20px 50px;
+}
+.bold{
+    font-weight: bold;
+}
+/* Header */
+.header{  /* H1, h2 */
+    text-align: center;
+}
+.main-title{
+    font-size: 40px;
+}
+.main-paragrafo{
+    font-size: 20px;
+    font-style: italic;
+}
+/* Imagem destaque */
+.featured-image{
+    text-align: center;
+    margin-top: 30px;
+}
+
+/* War Start */
+.war-start{
+    padding: 25px 0;
+    margin: 25px 0;
+    border-top: 1px dashed #ddd;
+    border-bottom: 1px dashed #ddd;
+}
+/* Quotes */
+.quotes-container{
+    background-color: #ddd;
+    padding: 30px;
+}
+.quotes-container blockquote{
+    font-weight: bold;
+    font-size: 30px;
+}
+.quotes-container p{
+    font-style: italic;   
+}
+
+/* Curiosidades */
+.curiosidades-container{
+    padding: 25px 0;
+    margin: 25px 0;
+    border-top: 1px dashed #ddd;
+    border-bottom: 1px dashed #ddd;
+}
+.curiosidades-container li{
+    height: 30px;
+}
+.img-bold{
+    font-weight: bold;
+    height: auto;
+}
